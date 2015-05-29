@@ -52,3 +52,30 @@ li.global-nav__item a {
   text-decoration: none;
   color: #444;
 }
+
+.bread-crumbs {
+  background: #666;
+  padding-left: 18px;
+}
+
+.bread-crumbs__item {
+  display: inline;
+  list-style-type: none;
+  font-size: 90%;
+}
+
+.bread-crumbs__item a {
+  line-height: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.bread-crumbs__item:before {
+  content: " > ";
+  color: #bbb;
+}
+
+.bread-crumbs__item:first-child:before {
+  content: none;
+}
