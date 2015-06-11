@@ -92,3 +92,17 @@ li.global-nav__item a {
 .top-ads__image {
   width: 100%;
 }
+
+.main {
+  width: 650px;
+  float: right;
+}
+
+.aside {
+  width: 330px;
+  float: right;
+}
+
+.footer {
+  clear: right;
+}
