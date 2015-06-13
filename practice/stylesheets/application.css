@@ -93,9 +93,15 @@ li.global-nav__item a {
   width: 100%;
 }
 
+.body {
+  overflow: hidden;
+  background: #666;
+}
+
 .main {
   width: 650px;
   float: right;
+  background: #ddd;
 }
 
 .aside {
@@ -105,4 +111,12 @@ li.global-nav__item a {
 
 .footer {
   clear: right;
+}
+
+.aside-ads__items {
+  padding: 16px;
+}
+
+.aside-ads__item {
+  margin: 0px 0px 5px;
 }
