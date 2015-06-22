@@ -120,3 +120,25 @@ li.global-nav__item a {
 .aside-ads__item {
   margin: 0px 0px 5px;
 }
+
+.local-nav__item {
+  font: 18px sans-serif;
+  line-height: 40px;
+  padding-left: 16px;
+  margin: 2px 16px;
+  background: #999;
+}
+
+.local-nav__item:first-child {
+  border-radius: 4px 4px 0px 0px;
+}
+
+.local-nav__item:last-child {
+  border-radius: 0px 0px 4px 4px;
+}
+
+
+.local-nav__item a {
+  text-decoration: none;
+  color: white;
+}
