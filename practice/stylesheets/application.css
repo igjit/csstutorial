@@ -142,3 +142,36 @@ li.global-nav__item a {
   text-decoration: none;
   color: white;
 }
+
+.main-header__title {
+  font: 36px sans-serif;
+  font-weight: bold;
+  line-height: 84px;
+  background: #eee;
+  position: relative;
+  padding-left: 64px;
+}
+
+.main-header__title:before {
+  content: "";
+  position: absolute;
+  background: #999;
+  top: 30px;
+  left: 14px;
+  width: 12px;
+  height: 12px;
+  box-shadow:
+  0px 12px #444,
+  12px 0px #444,
+  12px 12px #999;
+}
+
+.main-header__title:after {
+  content: '';
+  display: block;
+  right: 0;
+  top: 0;
+  position: absolute;
+  border-top: 32px solid #ddd;
+  border-left: 32px solid #aaa;
+}
